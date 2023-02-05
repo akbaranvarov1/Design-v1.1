@@ -1,0 +1,132 @@
+header {
+  width: 100%;
+  padding-top: 64px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 2;
+}
+.burger_menu {
+  display: none;
+}
+.navbar {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .nav_ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    .nav_ul_li {
+      list-style-type: none;
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 14px;
+      letter-spacing: 2px;
+      .nav_ul_li-links {
+        text-decoration: none;
+        color: #333136;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 767px;
+
+    position: fixed;
+    background-color: #fff;
+    z-index: 2;
+    padding-top: 64px;
+    padding-bottom: 20px;
+  }
+  .burger-menu .navbar {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav_ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      .nav_ul_li {
+        list-style-type: none;
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        .nav_ul_li-links {
+          text-decoration: none;
+          color: #333136;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  header {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    padding-top: 35px;
+
+    z-index: 2;
+  }
+  .burger_menu {
+    display: block;
+  }
+  .navbar {
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    width: 375px;
+    align-items: center;
+    justify-content: space-between;
+    .nav_ul {
+      width: 24px;
+      height: 20px;
+      background: url(../../images/burger.svg);
+      display: flex;
+      align-items: center;
+      gap: 0px;
+
+      .nav_ul_li {
+        .nav_ul_li-links {
+     display: none;
+
+          font-family: "Jost";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 14px;
+          /* identical to box height, or 100% */
+
+          letter-spacing: 2px;
+
+          color: #333136;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

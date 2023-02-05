@@ -1,0 +1,479 @@
+.main--wrapper {
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &--left {
+    position: relative;
+    width: 541px;
+    height: 640px;
+    background-image: url(../../images/noothand.svg);
+    text-align: center;
+    padding-top: 273px;
+
+    .hover--bg--left {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 541px;
+      height: 640px;
+      opacity: 1;
+      border-radius: 15px;
+    }
+
+    &:hover .hover--bg--left {
+      opacity: 50%;
+      background-color: #e7816b;
+    }
+
+    &--title {
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: 2px;
+      color: #ffffff;
+    }
+
+    &--textlink {
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+  }
+
+  &--right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+
+    &--top {
+      position: relative;
+      width: 541px;
+      height: 308px;
+      background-image: url(../../images/telhand.svg);
+      text-align: center;
+      padding-top: 80px;
+
+      .hover--bg--top {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 541px;
+        height: 308px;
+        opacity: 1;
+        border-radius: 15px;
+      }
+
+      &:hover .hover--bg--top {
+        opacity: 50%;
+        background-color: #e7816b;
+      }
+
+      &--title {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 2px;
+        color: #ffffff;
+      }
+
+      &--textlink {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+    }
+
+    &--bottom {
+      position: relative;
+      width: 541px;
+      height: 308px;
+      background-image: url(../../images/carusel.svg);
+      text-align: center;
+      padding-top: 80px;
+
+      .hover--bg--bottom {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 541px;
+        height: 308px;
+        opacity: 1;
+        border-radius: 15px;
+      }
+
+      &:hover .hover--bg--bottom {
+        opacity: 50%;
+        background-color: #e7816b;
+      }
+
+      &--textlink {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+
+      &--title {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 2px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .main--wrapper {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    &--left {
+      border-radius: 15px;
+      position: relative;
+      width: 689px;
+      height: 200px;
+      background-image: url(../../images/noothand.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0 -615px;
+      text-align: center;
+      padding-top: 10px;
+
+      .hover--bg--left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 689px;
+        height: 200px;
+        opacity: 1;
+        border-radius: 15px;
+      }
+
+      &:hover .hover--bg--left {
+        opacity: 50%;
+        background-color: #e7816b;
+      }
+
+      &--title {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 2px;
+        color: #ffffff;
+      }
+
+      &--textlink {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+    }
+
+    &--right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 24px;
+
+      &--top {
+        border-radius: 15px;
+        position: relative;
+        width: 689px;
+        height: 200px;
+        background-image: url(../../images/telhand.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -100px;
+        text-align: center;
+        padding-top: 10px;
+
+        .hover--bg--top {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 689px;
+          height: 200px;
+          opacity: 1;
+          border-radius: 15px;
+        }
+
+        &:hover .hover--bg--top {
+          opacity: 50%;
+          background-color: #e7816b;
+        }
+
+        &--title {
+          font-family: "Jost";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 48px;
+          letter-spacing: 2px;
+          color: #ffffff;
+        }
+
+        &--textlink {
+          font-family: "Jost";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 20px;
+          letter-spacing: 5px;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+      }
+
+      &--bottom {
+        border-radius: 15px;
+        position: relative;
+        width: 689px;
+        height: 200px;
+        background-image: url(../../images/carusel.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 0;
+        text-align: center;
+        padding-top: 10px;
+
+        .hover--bg--bottom {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 689px;
+          height: 200px;
+          opacity: 1;
+          border-radius: 15px;
+        }
+
+        &:hover .hover--bg--bottom {
+          opacity: 50%;
+          background-color: #e7816b;
+        }
+        &--textlink {
+          font-family: "Jost";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 20px;
+          letter-spacing: 5px;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+
+        &--title {
+          font-family: "Jost";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 48px;
+          letter-spacing: 2px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .main--wrapper {
+    width: 374px;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+   
+
+    &--left {
+      border-radius: 15px;
+      position: relative;
+      width: 327px;
+      height: 250px;
+      background-image: url(../../images/noothand.svg);
+      background-repeat: no-repeat;
+      
+      background-position: 0 0px;
+
+      padding-top: 10px;
+
+      .hover--bg--left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 327px;
+        height: 250px;
+        opacity: 1;
+        border-radius: 15px;
+      }
+
+      &:hover .hover--bg--left {
+        opacity: 50%;
+        background-color: #e7816b;
+      }
+
+      &--title {
+        
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 2px;
+
+        color: #ffffff;
+      }
+
+      &--textlink {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+    }
+
+    &--right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+
+      &--top {
+        border-radius: 15px;
+        position: relative;
+        width: 327px;
+        height: 250px;
+        background-image: url(../../images/telhand.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px 0px;
+        text-align: center;
+        padding-top: 10px;
+
+        .hover--bg--top {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 327px;
+          height: 250px;
+          opacity: 1;
+          border-radius: 15px;
+        }
+
+        &:hover .hover--bg--top {
+          opacity: 50%;
+          background-color: #e7816b;
+        }
+
+        &--title {
+          font-family: "Jost";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 28px;
+          line-height: 36px;
+          letter-spacing: 2px;
+          color: #ffffff;
+        }
+
+        &--textlink {
+          font-family: "Jost";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 22px;
+          letter-spacing: 5px;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+      }
+
+      &--bottom {
+        border-radius: 15px;
+        position: relative;
+        width: 327px;
+        height: 250px;
+        background-image: url(../../images/carusel.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 0;
+        text-align: center;
+        padding-top: 10px;
+
+        .hover--bg--bottom {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 327px;
+          height: 250px;
+          opacity: 1;
+          border-radius: 15px;
+        }
+
+        &:hover .hover--bg--bottom {
+          opacity: 50%;
+          background-color: #e7816b;
+        }
+        &--textlink {
+          font-family: "Jost";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 22px;
+          letter-spacing: 5px;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+
+        &--title {
+          font-family: "Jost";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 28px;
+          line-height: 36px;
+          letter-spacing: 2px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

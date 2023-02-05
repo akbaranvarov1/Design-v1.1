@@ -1,0 +1,320 @@
+.box_contact {
+  width: 1111px;
+  height: 480px;
+  background: #e7816b;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../../images/ovalend.svg);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  padding-bottom: 40px;
+}
+.contact_left {
+  width: 540px;
+  height: 184px;
+  padding-left: 95px;
+  margin-bottom: 100px;
+}
+.title_contact {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  width: 540px;
+  color: #ffffff;
+}
+.text_contact {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 445px;
+  color: #ffffff;
+}
+.contact_right {
+  width: 640px;
+  height: 291px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+form {
+  width: 380px;
+  height: 291px;
+  display: flex;
+  margin-left: 95px;
+  flex-direction: column;
+  gap: 12px;
+}
+.input_textarea {
+  width: 400px;
+  height: 40px;
+  padding-top: 20px;
+  background: none;
+  border: none;
+  padding-bottom: 60px;
+  border-bottom: 1px solid white;
+  outline: none;
+color: wheat;
+  &:hover {
+    border: none;
+    border-bottom: 3px solid white;
+  }
+  &::placeholder {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    opacity: 0.7;
+    mix-blend-mode: normal;
+    color: #ffffff;
+  }
+}
+.input_contact {
+  width: 380px;
+  color: wheat;
+  padding-bottom: 11px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  &:hover {
+    border: none;
+    border-bottom: 3px solid white;
+  }
+
+  &::placeholder {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    opacity: 0.7;
+    mix-blend-mode: normal;
+    color: #ffffff;
+  }
+}
+
+.btn_contact {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 152px;
+  height: 56px;
+  border: none;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  margin-left: 60%;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .box_contact {
+    width: 689px;
+    height: 711px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #e7816b;
+    border-radius: 15px;
+    background-image: url(../../images/ovalend.svg);
+    background-repeat: no-repeat;
+
+    background-position-x: left;
+
+    margin-top: 120px;
+  }
+  .contact_left {
+    display: block;
+    text-align: left;
+    margin-left: -35%;
+  }
+  .title_contact {
+    display: block;
+    text-align: left;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    width: 540px;
+    color: #ffffff;
+  }
+  .text_contact {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 445px;
+    color: #ffffff;
+  }
+  .contact_right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  form {
+    width: 573px;
+    height: 291px;
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 4%;
+  }
+  .input_contact {
+    width: 573px;
+    padding-bottom: 11px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    &:hover {
+      border: none;
+      border-bottom: 3px solid white;
+    }
+
+    &::placeholder {
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 26px;
+      opacity: 0.7;
+      mix-blend-mode: normal;
+      color: #ffffff;
+    }
+  }
+
+  .btn_contact {
+    background: #ffffff;
+    border-radius: 8px;
+    width: 152px;
+    height: 56px;
+    border: none;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    margin-left: 60%;
+    padding-top: 20px;
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 75%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .box_contact {
+    width: 350px;
+    height: 1188px;
+    display: flex;
+    align-items: center;
+
+    background: #e7816b;
+    border-radius: 15px;
+    background-image: url(../../images/ovalend.svg);
+    background-repeat: round;
+
+    background-position-x: left;
+    margin: 0 auto;
+    padding: 0;
+    padding-right: 48.9%;
+    margin-left: 0;
+    margin-top: 120px;
+  }
+  .contact_left {
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-left: 180px;
+  }
+  .title_contact {
+    display: block;
+    text-align: center;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    width: 540px;
+    color: #ffffff;
+  }
+  .text_contact {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 445px;
+    color: #ffffff;
+    padding-left: 100px;
+  }
+  .contact_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  form {
+    width: 327px;
+    height: 387px;
+    // display: flex;
+    // align-items: center;
+    // flex-direction: column;
+    // justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -50%;
+    margin-left: 4%;
+  }
+  .input_contact {
+    width: 327px;
+    padding-bottom: 11px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    &:hover {
+      border: none;
+      border-bottom: 3px solid white;
+    }
+
+    &::placeholder {
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 26px;
+      opacity: 0.7;
+      mix-blend-mode: normal;
+      color: #ffffff;
+    }
+  }
+
+  .btn_contact {
+    background: #ffffff;
+    border-radius: 8px;
+    width: 152px;
+    height: 56px;
+    border: none;
+
+    padding-bottom: 20px;
+
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 25%;
+  }
+}
